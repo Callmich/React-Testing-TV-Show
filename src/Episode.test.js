@@ -80,4 +80,4 @@ test('Episodes renders all of the Eps in question', () => {
     rerender(<Episodes episodes={epData}/>)
 
     expect(queryAllByTestId(/epList/i)).toHaveLength(3) 
-})
+}) 
